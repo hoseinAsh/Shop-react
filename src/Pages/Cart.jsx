@@ -75,7 +75,10 @@ export default function Cart() {
           </div>
         </div>
       ) : (
-        <h1 className="text-center">You're Cart Is Empty</h1>
+        <div className="d-flex flex-column align-items-center ">
+          <h1 className="text-center">You're Cart Is Empty</h1>
+          <NavLink to="/products" className="btn btn-outline-dark mt-3 fs-5" style={{width : "150px"}}>Go to Shop</NavLink>
+        </div>
       )}
     </div>
   );
