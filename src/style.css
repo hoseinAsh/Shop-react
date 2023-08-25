@@ -1,0 +1,26 @@
+.nav-item {
+    font-size: 18px;
+}
+
+.quantity {
+    display:  flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.quantity button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width : 992px ) {
+    .buttons {
+        display: none;
+    }
+}
