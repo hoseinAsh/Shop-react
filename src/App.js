@@ -20,7 +20,7 @@ export default function App() {
 
       <Navbar />
       <Routes>
-        <Route path="/Shop-react" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<SingleProduct />} />
         <Route path="/cart" element={<Cart />} />
