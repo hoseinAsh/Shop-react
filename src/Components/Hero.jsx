@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="Hero">
       <div className="card text-bg-dark border-0">
         <img
-          src="../assets/Category-New-Arrivals-2022.webp"
+          src="./assets/Category-New-Arrivals-2022.webp"
           className="card-img"
           alt="background"
           height={500}
