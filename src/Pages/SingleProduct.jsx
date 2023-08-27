@@ -48,7 +48,7 @@ export default function SingleProduct() {
           <img
             src={product.image}
             alt={product.title}
-            width={400}
+            width={"100%"}
             height={400}
           />
         </div>
